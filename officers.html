@@ -6,11 +6,14 @@
   <title>Officers — qSTEM</title>
   <link rel="stylesheet" href="styles.css">
   <script src="palette.js" defer></script>
+  <script src="accessibility.js" defer></script>
  </head>
 <body class="page-officers">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
     <a href="index.html"><img src="photos/logo.png" alt="qSTEM logo" class="logo"></a>
-    <nav>
+    <button id="a11y-toggle" class="a11y-toggle" aria-pressed="false" aria-label="Toggle high contrast and larger text">A11Y: Off</button>
+    <nav aria-label="Main navigation">
       <a class="nav-home" href="index.html">Home</a>
       <a class="nav-about" href="about.html">About</a>
       <a class="nav-officers" href="officers.html" aria-current="page">Officers</a>
@@ -20,13 +23,13 @@
       <a class="nav-contact" href="contact.html">Contact</a>
     </nav>
   </header>
-  <main class="container">
+  <main id="main-content" class="container">
     <h1>Team / Officers</h1>
-    <ul class="officers">
+      <ul class="officers">
       <li><strong>Ari Gasparini</strong> — President</li>
       <li><strong>Mikael Murphy-Rendon</strong> — Vice President</li>
       <li><strong>Nicholas Lennon</strong> — Technical / Website</li>
-      <li><strong>Mina Yeh</strong> — Communications / Outreach</li>
+      <li><strong>Joshua Lennon</strong> — Treasurer</li>
     </ul>
   </main>
   <footer>
